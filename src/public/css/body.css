@@ -1,0 +1,133 @@
+/* SECTION 1 */
+.bg-section{
+    top: 744px;
+    left: 0px;
+    height: 736px;
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+}
+.tendencias-section{
+    padding-top: 100px;
+}
+.titulo-section{
+    top: 854px;
+    left: 139px;
+    width: 163px;
+    height: 26px;
+    font: normal normal bold 24px/20px Montserrat;
+    color: #2A3037;
+    margin-bottom: 0;
+    }
+.tendencias-body{
+    display: flex;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+.card{
+    height: 314px;
+    width: 350px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    border: none;
+}
+.card-text{
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.card h4{
+    width: 280px;
+    height: 16px;
+    text-align: left;
+    font: normal normal bold 16px/20px Montserrat;
+    color: #2A3037;
+}
+.card p {
+    text-align: left;
+    font: normal normal normal 13px/23px Montserrat;
+    color: #7A838D;
+}
+#nuevo{
+    width: 83px;
+    height: 32px;
+    background: #FA6980 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    margin-left: 30px;
+
+}
+#nuevo p {
+    font: normal normal bold 16px/13px Montserrat;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+
+/* SECTION 2 */
+.blog-section{
+    margin-top: -160px;
+}
+.blog-body{
+    display: flex;
+    margin-top: 30px;
+}
+.articulo-big div:first-child{
+    position: absolute;
+    color: #FFFFFF;
+}
+.aventura{
+    margin-top: 40px;
+}
+.articulo-big div:first-child{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.articulo-big-bottom{
+    margin-top: 220px;
+}
+.articulo-big-bottom p{
+ margin-top: -5px;
+}
+.articulo-big h4 {
+font: normal normal bold 16px/20px Montserrat;
+}
+.articulo-big h3 {
+font: normal normal bold 24px/34px Montserrat;
+}
+.articulo-big p {
+    top: 1698px;
+left: 179px;
+width: 630px;
+height: 42px;
+text-align: left;
+font: normal normal normal 16px/26px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.articulo-small{
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    margin: 0 21px;
+    height: 300px;
+}
+.articulo-small img {
+    margin-bottom: 20px;
+}
+
+.hora{
+    display: flex;
+}
+.hora p {
+font: normal normal normal 13px/26px Montserrat;
+color: #CBD0D3;
+margin-top: -5px;
+margin-left: 5px;
+
+}

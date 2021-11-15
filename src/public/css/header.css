@@ -1,0 +1,109 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVEGACION */
+.navbar {
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.nav-logo{
+    background: transparent url('img/logo_01.png') 0% 0% no-repeat padding-box;
+    margin-left: 140px;
+
+}
+.navbar-collapse{
+    margin-right: 140px;
+}
+.nav-link{
+    font: normal normal normal 18px/13px Montserrat;
+    color: #2A3037;
+    margin-left: 20px;
+}
+.disable{
+    color: #CBD0D3;
+}
+
+/* HEADER */
+header{
+    background-image: url("/img/Viajes_Hero.jpg");
+    background-size: cover;
+    height: 730px;
+    color: #FFFFFF;
+    margin-top: -35px;
+}
+.header-card{
+    width: 550px;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 120px;
+    
+}
+.header-title {
+    display: flex;
+    border-bottom: #FFFFFF solid 3px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.header-title h1{
+    font: normal normal bold 48px/42px Montserrat;
+    text-align: left;
+    letter-spacing: 0px;
+    margin-left: 20px;
+    margin-bottom: -5px;
+}
+.header-body h3 {
+    text-align: left;
+    font: normal normal bold 24px/34px Montserrat;
+    margin-top: 20px;
+}
+.header-body p{
+    font: normal normal normal 16px/26px Montserrat;
+    margin-top: 20px;
+}
+
+.header-bottom{
+    position: absolute;
+    margin-top: 630px;
+    display: flex;
+    width: 100%;
+}
+.nav-slider{
+    margin-left: -35px;
+}
+.proxima-aventura-card{
+    margin-top: -125px;
+    width:260px;
+    height: 157px;
+    right:140px;
+    z-index: 3;
+    position:absolute;
+    background-color: rgb(42, 48, 55,0.5);
+    border: 2px dashed #FFFFFF;
+    border-radius: 6px; 
+}
+.proxima-aventura-card-content{
+    margin-top: 27px;
+    margin-left: 30px;
+}
+.proxima-aventura-card h4 {
+    font: normal normal bold 16px/20px Montserrat;
+    color: #FA6980;
+    position: relative;
+}
+.proxima-aventura-title {
+    display: flex;
+}
+.proxima-aventura-title svg{
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.proxima-aventura-card h5 {
+    font: normal normal bold 16px/20px Montserrat;
+}
+.proxima-aventura-card p {
+    font: normal normal 300 14px/22px Montserrat;
+    width: 200px;
+}
+

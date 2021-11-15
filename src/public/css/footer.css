@@ -1,0 +1,20 @@
+.footer{
+height: 96px;
+width: auto;
+background: #2A3037 0% 0% no-repeat padding-box;
+margin-top: 80px;
+}
+.footer-logo{
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.redes{
+    margin-top: -20px;
+    right:145px;
+    z-index: 3;
+    position:absolute;
+}
+.redes svg:first-child{
+    margin-right: 10px;
+}
