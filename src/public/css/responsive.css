@@ -9,6 +9,11 @@
 .nav-logo{
     margin-left: 36px;
 }
+.nav-logo svg {
+    width: 96px;
+    height: 15px;
+}
+
 /* nav responsive */
 #close-icon{
     z-index: 1030;

@@ -18,6 +18,10 @@ body{
     margin-left: 120px;
 
 }
+.nav-logo svg{
+    width: 101.27px; 
+    height: 18.616px
+}
 .navbar-collapse{
     margin-right: 144px;
 
