@@ -1,7 +1,7 @@
 # blog-viajes
 
 Para ejecutar descargar el proyecto
-desde la terminal 
+y luego esde la terminal 
 utilizar los comandos npm i 
 y npm start
 
