@@ -6,9 +6,6 @@ let button = document.getElementById('btn')
 
 
 
-
-console.log(button)
-
 const openIcon = document.getElementById('open-icon');
 const nav = document.getElementById('navbarNav')
 
@@ -20,7 +17,6 @@ openIcon.addEventListener('click', () => {
 })
 
 closeIcon.addEventListener('click', () => {
-
     closeIcon.classList.add('d-none')
     openIcon.classList.remove('d-none')
 })
