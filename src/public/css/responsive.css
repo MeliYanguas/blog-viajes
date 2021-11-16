@@ -4,6 +4,7 @@
 .navbar {
     height: 50px;
     position: relative;
+    opacity: 1;
 }
 .nav-logo{
     margin-left: 36px;
@@ -51,9 +52,6 @@
 .navbar-toggler:focus {
     box-shadow: none
 }
-
-
- 
 
 /* HEADER */
 header{

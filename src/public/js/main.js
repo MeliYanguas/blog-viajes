@@ -1,14 +1,6 @@
-
-
 const closeIcon = document.getElementById('close-icon');
-
-let button = document.getElementById('btn')
-
-
-
 const openIcon = document.getElementById('open-icon');
 const nav = document.getElementById('navbarNav')
-
 
 openIcon.addEventListener('click', () => {
     nav.classList.add('nav-colapsada', 'animate__fadeIn')
