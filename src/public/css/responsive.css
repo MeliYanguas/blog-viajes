@@ -61,6 +61,7 @@
 /* HEADER */
 header{
     margin-top: -35px;
+    background-position-x: -385px;
 }
 .header-card{
     width: 286px;
