@@ -8,11 +8,47 @@
             </svg>
         </a>
     </div>
-    <button class="navbar-toggler btn-light bg-light" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">----</span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="btn">
+        <svg class="d-none" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+            id="close-icon">
+            <defs>
+                <style>
+                    .a-1 {
+                        fill: none;
+                    }
+
+                    .b-1 {
+                        fill: #2a3037;
+                    }
+                </style>
+            </defs>
+            <g transform="translate(-305 -17)">
+                <rect class="a-1" width="16" height="16" transform="translate(305 17)" />
+                <path class="b-1"
+                    d="M7.778,9.192,1.414,15.557,0,14.142,6.364,7.778,0,1.414,1.414,0,7.778,6.364,14.142,0l1.415,1.414L9.192,7.778l6.364,6.364-1.415,1.415Z"
+                    transform="translate(305 17)" />
+            </g>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" id="open-icon">
+            <defs>
+                <style>
+                    .a-2 {
+                        fill: #2a3037;
+                    }
+                </style>
+            </defs>
+            <g transform="translate(-305.023 -18)">
+                <rect class="a-2" width="20" height="2" transform="translate(305.023 30)" />
+                <rect class="a-2" width="20" height="2" transform="translate(305.023 24)" />
+                <rect class="a-2" width="20" height="2" transform="translate(305.023 18)" />
+            </g>
+        </svg>
+
+
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+
+    <div class="collapse navbar-collapse animate__animated " id="navbarNav">
         <ul class="navbar-nav ms-auto">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/">HOME</a>
@@ -24,5 +60,6 @@
                 <a class="nav-link disable" href="#blog">BLOG</a>
             </li>
         </ul>
+
     </div>
 </nav>
