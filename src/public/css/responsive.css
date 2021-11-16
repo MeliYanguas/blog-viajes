@@ -1,0 +1,332 @@
+@media (max-width: 500px){
+    /* NAVEGACION */
+.navbar {
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    position: relative;
+
+}
+.nav-logo{
+    margin-left: 35px;
+    margin-bottom: 5px;
+
+
+}
+.navbar-collapse{
+    margin-right: 140px;
+}
+.nav-link{
+    font: normal normal normal 18px/13px Montserrat;
+    color: #2A3037;
+    margin-left: 20px;
+}
+.disable{
+    color: #CBD0D3;
+}
+
+/* HEADER */
+header{
+    background-image: url("/img/Viajes_Hero.jpg");
+    
+    background-size: cover;
+   
+    
+    height: 600px;
+    color: #FFFFFF;
+    margin-top: -97px;
+    background-position-x: -285px;
+}
+.header-card{
+    width: 286px;
+    position: absolute;
+    margin-top: 284px;
+    margin-left: 37px;
+    
+}
+.header-title {
+    display: flex;
+    border-bottom: #FFFFFF solid 2px;
+    align-items: center;
+    height: 24px;
+}
+.header-title svg {
+    width: 12px;
+}
+.header-title h1{
+    font: normal normal bold 24px/42px Montserrat;
+    margin-left: 8px;
+}
+.header-body h3 {
+    text-align: left;
+    margin-top: 18px;
+font: normal normal bold 20px/34px Montserrat;
+margin-bottom: -3px;
+
+}
+.header-body p{
+    display: none;
+}
+
+.header-bottom{
+    position: absolute;
+    margin-top: 630px;
+    display: flex;
+    width: 100%;
+}
+.nav-slider{
+    margin-left: -100px;
+    margin-top: -128px;
+
+}
+.proxima-aventura-card{
+    margin-top: -125px;
+    width:0px;
+    display: none;
+    height: 157px;
+    right:140px;
+    z-index: 3;
+    position:relative;
+    background-color: rgb(42, 48, 55,0.5);
+    border: 2px dashed #FFFFFF;
+    border-radius: 6px; 
+}
+.card-2{
+    display: none;
+    width: 0;
+}
+.proxima-aventura-card-content{
+    margin-top: 27px;
+    margin-left: 30px;
+}
+.proxima-aventura-card h4 {
+    font: normal normal bold 16px/20px Montserrat;
+    color: #FA6980;
+    position: relative;
+}
+.proxima-aventura-title {
+    display: flex;
+}
+.proxima-aventura-title svg{
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.proxima-aventura-card h5 {
+    font: normal normal bold 16px/20px Montserrat;
+}
+.proxima-aventura-card p {
+    font: normal normal 300 14px/22px Montserrat;
+    width: 200px;
+}
+
+/* SECTION 1 TENDENCIAS*/
+
+.bg-section{
+    top: 744px;
+    left: 0px;
+    height: 736px;
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+
+}
+.tendencias-section{
+    padding-top: 80px;
+}
+.titulo-section{
+    top: 854px;
+    left: 139px;
+    width: 163px;
+    height: 26px;
+    font: normal normal bold 24px/20px Montserrat;
+    color: #2A3037;
+    margin-bottom: 22px;
+    margin-left: 22px;
+    }
+.tendencias-body{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.card{
+    height: 314px;
+    width: 286px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: -8px 12px;
+    border: none;
+}
+.card img {
+
+height: 180px;
+}
+.card-text{
+    margin-top: 36px;
+    margin-left: 22px;
+
+}
+.card h4{
+    width: 280px;
+    height: 16px;
+    font: normal normal bold 16px/20px Montserrat;
+    color: #2A3037;
+}
+.card p {
+    font: normal normal normal 13px/23px Montserrat;
+    color: #7A838D;
+}
+#nuevo{
+    width: 69px;
+    height: 27px;
+    background: #FA6980 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 166px;
+    margin-left: 22px;
+
+}
+#nuevo p {
+    font: normal normal bold 12px/10px Montserrat;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+
+/* SECTION 2 BLOG*/
+.blog-section{
+    margin-top: -220px;
+    
+    
+    
+}
+.blog-body{
+    
+    display: flex;
+    margin-top: 30px;
+    padding: 0;
+    margin: 0;
+    
+}
+.articulo-big{
+    width:360px;
+    margin: 0 auto;
+    overflow:hidden;
+    position: relative;
+    height: 429px;
+    margin-left: -12px;
+    border-radius: 6px;
+
+  
+}
+.articulo-big img{
+    margin-left: -184px;
+    top: 50%;
+    margin-top: -215px;
+   
+    
+    position:absolute;
+    
+
+    
+   
+    
+}
+
+
+.articulo-big div:first-child{
+    position: absolute;
+    color: #FFFFFF;
+    z-index: 1;
+    
+}
+.articulo-big h4 {
+    margin-top: 10px;
+}
+
+.aventura{
+    margin-top: 30px;
+}
+
+.articulo-big-bottom{
+    margin-top: 266px;
+}
+.articulo-big-bottom p{
+ margin-top: -5px;
+}
+.articulo-big h4 {
+font: normal normal bold 16px/20px Montserrat;
+}
+.articulo-big h3 {
+width: 283px;
+font: normal normal bold 22px/34px Montserrat;
+
+}
+.articulo-big p {
+    top: 1698px;
+left: 179px;
+width: 630px;
+height: 42px;
+text-align: left;
+font: normal normal normal 16px/26px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.articulo-big .texto-card{
+    display: none;
+}
+.articulo{
+   display: none; 
+   width: 0;
+}
+
+.articulo-small{
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    margin: 0 21px;
+    height: 300px;
+}
+.articulo-small img {
+    margin-bottom: 20px;
+}
+
+.hora{
+    display: flex;
+}
+.hora p {
+font: normal normal normal 13px/26px Montserrat;
+color: #CBD0D3;
+margin-top: -5px;
+margin-left: 5px;
+
+}
+
+/* FOOTER */
+.footer{
+    height: 96px;
+    width: auto;
+    background: #2A3037 0% 0% no-repeat padding-box;
+    margin-top: 40px;
+    }
+    .footer-logo{
+        margin-top: 40px;
+        margin-left: 36px;
+    }
+    
+    .redes{
+        margin-top: -20px;
+        right: 46px;
+        z-index: 3;
+        position:absolute;
+    }
+    .redes svg:first-child{
+        margin-right: 10px;
+    }
+
+
+
+}
+

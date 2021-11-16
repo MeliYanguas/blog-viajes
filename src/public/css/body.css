@@ -1,4 +1,4 @@
-/* SECTION 1 */
+/* SECTION 1 TENDENCIAS*/
 .bg-section{
     top: 744px;
     left: 0px;
@@ -32,6 +32,7 @@
     margin: 0 10px;
     border: none;
 }
+
 .card-text{
     margin-top: 40px;
     margin-left: 25px;
@@ -67,7 +68,7 @@
 }
 
 
-/* SECTION 2 */
+/* SECTION 2 BLOG*/
 .blog-section{
     margin-top: -160px;
 }
