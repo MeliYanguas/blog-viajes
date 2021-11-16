@@ -96,6 +96,7 @@ header{
 }
 .header-title h1{
     font: normal normal bold 24px/42px Montserrat;
+    margin-left: 10px;
 }
 .header-body h3 {
     text-align: left;
@@ -270,6 +271,10 @@ height: 180px;
     
    
     
+}
+.articulo-big div:first-child {
+    margin-left: 35px;
+    margin-top: 40px;
 }
 
 
